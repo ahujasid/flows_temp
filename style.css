@@ -59,3 +59,65 @@ a:hover{
     border-bottom: 1px solid #124DEE;
     color: #124DEE;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30%;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+.image{
+    width: 100%;
+}
+
+.image img{
+    width: 80%;
+}
+
+.header{
+    margin-top: 32px;
+    font-size: 64px;
+    color: #2F3F37;
+    line-height: 1.38;
+    font-weight: 600;
+    
+}
+
+.subheader{
+    margin-top: 24px;
+    font-weight: 400;
+    line-height: 1.57;
+    font-size: 40px;
+    color: #81878C;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px dashed #81878C;
+    color: #81878C;
+}
+
+a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid #124DEE;
+    color: #124DEE;
+}
+
+}
